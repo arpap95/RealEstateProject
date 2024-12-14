@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div className="card_container">
             <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="./" />
+      <Card.Img variant="top" src="src/assets/istockphoto.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -20,7 +20,7 @@ const About = () => {
     </Card>
 
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="src/assets/istockphoto.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -32,7 +32,7 @@ const About = () => {
     </Card>
 
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="/src/assets/istockphoto.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>

@@ -1,0 +1,14 @@
+/* Corrected class name and added specificity */
+.custom-navbar {
+    border-radius: 15px;
+    background-color: #333333 !important; /* Custom background color */
+}
+
+.custom-navbar .navbar-brand, 
+.custom-navbar .nav-link {
+    color: #fff !important; /* Ensure text is white */
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: #cccccc !important; /* Optional hover effect */
+}
