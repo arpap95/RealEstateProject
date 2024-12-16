@@ -1,0 +1,44 @@
+.most-visited-section {
+  padding: 40px 20px;
+}
+
+.most-visited-section h2 {
+  color: #333;
+  font-weight: bold;
+}
+
+.most-visited-section .card {
+  background-color: #b2b2b2;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.most-visited-section .card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+.most-visited-section .btn-primary {
+  background-color: #5c715e;
+  border-color: #5c715e;
+  color: #fff;
+  font-weight: bold;
+}
+
+.most-visited-section .btn-primary:hover {
+  background-color: #485749;
+  border-color: #485749;
+}
+
+.most-visited-section .card-title {
+  color: #333;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.most-visited-section .card-text {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
