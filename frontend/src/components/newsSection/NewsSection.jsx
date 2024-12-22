@@ -1,5 +1,6 @@
 import React from 'react';
-import './newsSection.css'; 
+import Card from '../../components/card/Card'; // Adjust the path as necessary
+import './newsSection.css';
 
 const NewsSection = () => {
   const newsItems = [
@@ -8,18 +9,21 @@ const NewsSection = () => {
       description:
         'Learn how to navigate the housing market and find your dream home with these essential tips.',
       link: '#',
+      imageUrl: 'https://via.placeholder.com/150',
     },
     {
       title: 'Top Neighborhoods to Watch in 2024',
       description:
         'Discover the hottest neighborhoods where everyone wants to live this year.',
       link: '#',
+      imageUrl: 'https://via.placeholder.com/150',
     },
     {
       title: 'How to Secure the Best Mortgage Rates',
       description:
         'Find out what steps you can take to lock in a great mortgage rate for your home purchase.',
       link: '#',
+      imageUrl: 'https://via.placeholder.com/150',
     },
   ];
 
@@ -30,15 +34,12 @@ const NewsSection = () => {
         <div className="row">
           {newsItems.map((news, index) => (
             <div className="col-md-4" key={index}>
-              <div className="card mb-4 shadow-sm">
-                <div className="card-body">
-                  <h5 className="card-title">{news.title}</h5>
-                  <p className="card-text">{news.description}</p>
-                  <a href={news.link} className="btn btn-primary">
-                    Read More
-                  </a>
-                </div>
-              </div>
+              <Card
+                title={news.title}
+                description={news.description}
+                imageUrl={news.imageUrl}
+                link={news.link}
+              />
             </div>
           ))}
         </div>
@@ -47,6 +48,4 @@ const NewsSection = () => {
   );
 };
 
-
 export default NewsSection;
-
