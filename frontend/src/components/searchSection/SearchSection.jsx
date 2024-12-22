@@ -1,6 +1,5 @@
-// src/components/SearchSection.jsx
 import React from 'react';
-import './SearchSection.css'; // Import the CSS file
+import './SearchSection.css';
 
 const SearchSection = () => {
   return (

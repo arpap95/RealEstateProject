@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../../components/card/Card'; // Adjust the path as necessary
+import Card from '../../components/card/Card';
 import './mostVisited.css';
 
 const MostVisitedSection = () => {
@@ -8,7 +8,7 @@ const MostVisitedSection = () => {
       title: 'Most Visited Homes in 2024',
       description: 'Check out the homes that have been getting the most attention this year.',
       link: '#',
-      imageUrl: 'https://via.placeholder.com/150', // Add an image URL if needed
+      imageUrl: 'https://via.placeholder.com/150',
     },
     {
       title: 'Most Popular Listings Near You',

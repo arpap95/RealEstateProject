@@ -7,8 +7,8 @@ import Footer from './components/footer/Footer';
 import Sale from './pages/sale/Sale';
 import Rent from './pages/rent/Rent';
 import Advertise from './pages/advertise/Advertise';
-import FAQ from './pages/faq/FAQ';
-import Signup from "./pages/signup/Signup";
+import FAQ from './pages/faq/Faq';
+import Signup from "./pages/signUp/SignUp";
 import Login from "./pages/login/Login";
 
 function App() {
@@ -17,7 +17,6 @@ function App() {
       <div className="app-container">
         <Header />
         <Routes>
-          {/* Route Definitions */}
           <Route path="/" element={<Home />} />
           <Route path="/sale" element={<Sale />} />
           <Route path="/rent" element={<Rent />} />

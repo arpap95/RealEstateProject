@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../../components/card/Card'; // Adjust the path as necessary
+import Card from '../../components/card/Card';
 import './newsSection.css';
 
 const NewsSection = () => {
