@@ -43,8 +43,8 @@ const Sale = () => {
           <Col key={property.id} sm={12} md={6} lg={4} className="mb-4">
             <Card
               title={property.description}
-              description={property.location}
-              price={property.price}
+              description={`Location: ${property.location}`}
+              price={`Price: ${property.price}`}
               imageUrl={property.imageUrl}
               link={`/properties/${property.id}`}
             />
